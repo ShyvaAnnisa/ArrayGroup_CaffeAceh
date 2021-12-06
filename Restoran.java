@@ -2865,7 +2865,7 @@ public class Restoran extends javax.swing.JFrame {
         }
         int uangKembalian = Integer.parseInt(bayar.getText())-Integer.parseInt(totalsemua.getText());
         kembalian.setText(""+uangKembalian);
-    }//GEN-LAST:event_hitungActionPerformed
+    }
 
     private void kembalianActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kembalianActionPerformed
         // TODO add your handling code here:
