@@ -2665,7 +2665,6 @@ public class Restoran extends javax.swing.JFrame {
     }//GEN-LAST:event_ctimphanActionPerformed
 
     private void bpesanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bpesanActionPerformed
-        // TODO add your handling code here:
         String tmplmin1;
         tmplmin1 = " ";
         
@@ -2717,7 +2716,6 @@ public class Restoran extends javax.swing.JFrame {
     }//GEN-LAST:event_bpesanActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
-        // TODO add your handling code here:
         jkeukarah.setText(" ");
         jmeusekat.setText(" ");
         jadee.setText(" ");
