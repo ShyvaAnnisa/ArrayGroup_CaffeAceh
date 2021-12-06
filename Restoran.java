@@ -2665,57 +2665,76 @@ public class Restoran extends javax.swing.JFrame {
     }//GEN-LAST:event_ctimphanActionPerformed
 
     private void bpesanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bpesanActionPerformed
+        
         String tmplmin1;
         tmplmin1 = " ";
         
         
         if(ckeukarah.isSelected()){
-            int jumlah =Integer.parseInt(jkeukarah.getText());
+           
+            int jumlah = Integer.parseInt(jkeukarah.getText());
             int total;
+            
             total = jumlah * 5000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=ckeukarah.getText()+" Rp.5000 "+ " x "+jumlah+" = " +total+"\n";
-        }
-        if(cmeusekat.isSelected()){
-            int jumlah =Integer.parseInt(jmeusekat.getText());
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += ckeukarah.getText() + " Rp.5000 " + " x " +jumlah+ " = " + total + "\n";
+            
+        } if(cmeusekat.isSelected()){
+            int jumlah = Integer.parseInt(jmeusekat.getText());
             int total;
+            
             total = jumlah * 5000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=cmeusekat.getText()+" Rp.5000"+ " x "+jumlah+" = " +total+"\n";
-        }
-        if(cadee.isSelected()){
-            int jumlah =Integer.parseInt(jadee.getText());
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += cmeusekat.getText() + " Rp.5000" + " x " +jumlah+ " = " +total+ "\n";
+            
+        } if(cadee.isSelected()){
+            
+            int jumlah = Integer.parseInt(jadee.getText());
             int total;
+            
             total = jumlah * 6000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=cadee.getText()+" Rp.6000"+ " x "+jumlah+" = " +total+"\n";
-        }
-        if(cbakpia.isSelected()){
-            int jumlah =Integer.parseInt(jbakpia.getText());
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += cadee.getText() + " Rp.6000" + " x " +jumlah+ " = " +total+ "\n";
+            
+        } if(cbakpia.isSelected()){
+            
+            int jumlah = Integer.parseInt(jbakpia.getText());
             int total;
+            
             total = jumlah * 8000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=cbxkupikhop.getText()+" Rp.8000"+ " x "+jumlah+" = " +total+"\n";
-        }
-        if(crujak.isSelected()){
-            int jumlah =Integer.parseInt(jrujak.getText());
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += cbxkupikhop.getText() + " Rp.8000" + " x " +jumlah+ " = " +total+ "\n";
+            
+        } if(crujak.isSelected()){
+            
+            int jumlah = Integer.parseInt(jrujak.getText());
             int total;
+            
             total = jumlah * 5000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=crujak.getText()+" Rp.5000"+ " x "+jumlah+" = " +total+"\n";
-        }
-        if(ctimphan.isSelected()){
-            int jumlah =Integer.parseInt(jtimphan.getText());
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += crujak.getText() + " Rp.5000" + " x " +jumlah+ " = " +total+ "\n";
+            
+        } if(ctimphan.isSelected()){
+            
+            int jumlah = Integer.parseInt(jtimphan.getText());
             int total;
+            
             total = jumlah * 7000;
-            bayarmin1 = bayarmin1+total;
-            tmplmin1+=ctimphan.getText()+" Rp.7000"+ " x "+jumlah+" = " +total+"\n";
+            bayarmin1 = bayarmin1 + total;
+            
+            tmplmin1 += ctimphan.getText() + " Rp.7000" + " x " +jumlah+ " = " +total+ "\n";
         }
         
-        txtmin1.setText( tmplmin1 + "----------------"+ "\n"+"\n Total Dessert = " + bayarmin1);
+        txtmin1.setText( tmplmin1 + "----------------" + "\n" + "\n Total Dessert = " + bayarmin1);
     }//GEN-LAST:event_bpesanActionPerformed
 
     private void bresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresetActionPerformed
+        
         jkeukarah.setText(" ");
         jmeusekat.setText(" ");
         jadee.setText(" ");
@@ -2723,6 +2742,7 @@ public class Restoran extends javax.swing.JFrame {
         jrujak.setText(" ");
         jtimphan.setText(" ");
         txtmin1.setText(" ");
+        
     }//GEN-LAST:event_bresetActionPerformed
 
     private void cbxkupigayoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbxkupigayoActionPerformed
