@@ -2620,7 +2620,7 @@ public class Restoran extends javax.swing.JFrame {
             bayarmin = bayarmin+total;
             tmplmin+=cbxtehtarik.getText()+" Rp.6000"+ " x "+jumlah+" = " +total+"\n";
         }
-        txtmin.setText( tmplmin + "----------------"+ "\n"+"\n Total Minuman = " + bayarmin);        // TODO add your handling code here:
+        txtmin.setText( tmplmin + "----------------"+ "\n"+"\n Total Minuman = " + bayarmin);        // TODO add your handling code here:    
     }//GEN-LAST:event_btnpesanActionPerformed
 
     private void btnresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnresetActionPerformed
@@ -2753,6 +2753,7 @@ public class Restoran extends javax.swing.JFrame {
 
     private void btnpesanmknActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnpesanmknActionPerformed
         // TODO add your handling code here:
+        // TODO add your handling code here:
         String tmplmkn;
         tmplmkn = " ";
        
@@ -2798,7 +2799,8 @@ public class Restoran extends javax.swing.JFrame {
             tmplmkn+=cbxsie.getText()+" Rp.25000 "+ " x "+jumlah+" = " +total+"\n";
         }
         txtmkn.setText( tmplmkn + "----------------"+ "\n"+"\n Total Makanan = " + bayarmkn);        // TODO add your handling code here:
-    }//GEN-LAST:event_btnpesanmknActionPerformed
+    
+        }//GEN-LAST:event_btnpesanmknActionPerformed
 
     private void btnresetmknActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnresetmknActionPerformed
         // TODO add your handling code here:
